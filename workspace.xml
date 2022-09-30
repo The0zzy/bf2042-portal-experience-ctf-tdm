@@ -3641,8 +3641,14 @@
                                                                                                   </block>
                                                                                                 </value>
                                                                                                 <value name="VALUE-1">
-                                                                                                  <block type="Number">
-                                                                                                    <field name="NUM">3</field>
+                                                                                                  <block type="GetVariable">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="variableReferenceBlock">
+                                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                                        <field name="VAR" id="sN4ci99*TM2s`0JfktxT" variabletype="Global">pointsPerHalf</field>
+                                                                                                      </block>
+                                                                                                    </value>
                                                                                                   </block>
                                                                                                 </value>
                                                                                               </block>
@@ -5270,7 +5276,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="0" y="16702">
+  <block type="subroutineBlock" deletable="false" x="0" y="16960">
     <field name="SUBROUTINE_NAME">initFlagPositions</field>
     <statement name="ACTIONS">
       <block type="If">
