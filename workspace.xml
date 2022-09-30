@@ -3825,7 +3825,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="0" y="13230">
+  <block type="subroutineBlock" deletable="false" x="0" y="13112">
     <field name="SUBROUTINE_NAME">showDebugMessages</field>
     <statement name="CONDITIONS">
       <block type="conditionBlock">
@@ -3891,7 +3891,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="0" y="13539">
+  <block type="subroutineBlock" deletable="false" x="0" y="13421">
     <field name="SUBROUTINE_NAME">showPlayerMessages</field>
     <statement name="ACTIONS">
       <block type="DisplayCustomNotificationMessage">
@@ -4166,7 +4166,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="0" y="14404">
+  <block type="subroutineBlock" deletable="false" x="0" y="14286">
     <field name="SUBROUTINE_NAME">tick</field>
     <statement name="ACTIONS">
       <block type="SetVariableAtIndex">
@@ -4650,7 +4650,7 @@
                 <next>
                   <block type="If">
                     <value name="VALUE-0">
-                      <block type="And">
+                      <block type="And" inline="false">
                         <value name="VALUE-0">
                           <block type="Equals">
                             <value name="VALUE-0">
@@ -4797,7 +4797,7 @@
                     <next>
                       <block type="If">
                         <value name="VALUE-0">
-                          <block type="And">
+                          <block type="And" inline="false">
                             <value name="VALUE-0">
                               <block type="Equals">
                                 <value name="VALUE-0">
@@ -4944,7 +4944,7 @@
                         <next>
                           <block type="If">
                             <value name="VALUE-0">
-                              <block type="And">
+                              <block type="And" inline="false">
                                 <value name="VALUE-0">
                                   <block type="Equals">
                                     <value name="VALUE-0">
@@ -5091,7 +5091,7 @@
                             <next>
                               <block type="If">
                                 <value name="VALUE-0">
-                                  <block type="And">
+                                  <block type="And" inline="false">
                                     <value name="VALUE-0">
                                       <block type="Equals">
                                         <value name="VALUE-0">
@@ -5310,7 +5310,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="0" y="16308">
+  <block type="subroutineBlock" deletable="false" x="0" y="16702">
     <field name="SUBROUTINE_NAME">initFlagPositions</field>
     <statement name="ACTIONS">
       <block type="If">
